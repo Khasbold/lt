@@ -1,0 +1,18 @@
+{
+    "title": "Сайн байна уу?",
+    "jump_to_2nd": "Хоёрдох хуудас руу зочилох бол энд дарна уу",
+    "head_pic": "Хамтдаа ажиллъя",
+    "title_2nd_page": "Хоёрдох хуудаст тавтай морилно уу",
+    "back-to-home": "Буцах",
+    "language_switch_label": "Хэл солих <1>{{lng}}</1> хэл рүү: ",
+    "language_en": "Англи",
+    "language_cn": "Хятад",
+    "language_mn": "Монгол",
+    "title_client": "Client Хуудас",
+    "counter_one": "Нэгийг сонгосон",
+    "counter_other": "{{count}} сонгосон",
+    "counter_zero": "Нэгийг ч сонгоогүй",
+    "to-client-page": "Client хуудас руу үсрэх",
+    "go-login": "Нэвтрэх"
+    
+}

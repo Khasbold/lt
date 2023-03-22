@@ -1,0 +1,17 @@
+{
+    "title": "Hi there!",
+    "jump_to_2nd": "Press To Go To 2nd Page!",
+    "head_pic": "Let's work together",
+    "title_2nd_page": "Welcome to 2nd page :D",
+    "back-to-home": "Go Back",
+    "language_switch_label": "Switch from <1>{{lng}}</1> to: ",
+    "language_en": "English",
+    "language_cn": "Chinese",
+    "language_mn": "Mongolian",
+    "title_client": "Client side",
+    "counter_one": "one selected",
+    "counter_other": "{{count}} selected",
+    "counter_zero": "none selected",
+    "to-client-page": "To client page",
+    "go-login": "Login"
+}

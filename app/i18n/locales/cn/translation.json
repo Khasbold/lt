@@ -1,0 +1,17 @@
+{
+    "title": "你好呀",
+    "jump_to_2nd": "按下到第二頁！",
+    "head_pic": "我們一起工作吧",
+    "title_2nd_page": "歡迎來到第二頁：D",
+    "back-to-home": "回去",
+    "language_switch_label": "從<1> {{lng}} </1>切換到：",
+    "language_en": "英語",
+    "language_cn": "中國人",
+    "language_mn": "蒙",
+    "title_client": "客戶端",
+    "counter_one": "一個選擇",
+    "counter_other": "{{count}}選擇",
+    "counter_zero": "未選擇",
+    "to-client-page": "到客戶頁面",
+    "go-login": "登录"
+}
