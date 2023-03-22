@@ -26,10 +26,6 @@ export default async function Page({ params: { lng } }) {
       </Link>
       {/* <Footer lng={lng} /> */}
       <br />
-      <Link href={`/${lng}/client-page`}>
-        {t('to-client-page')}
-      </Link>
-      {/* <Footer lng={lng} /> */}
       
       <Carousel lng={lng} />
 
