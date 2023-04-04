@@ -3,6 +3,7 @@ import { Montserrat } from 'next/font/google'
 import { dir } from 'i18next'
 import { languages } from '../i18n/settings'
 import Header from './components/Header'
+import Header2 from './components/Header2'
 import Footer from './components/Footer'
 import { Providers } from './providers'
 
@@ -25,6 +26,7 @@ export default function RootLayout({ children, params: { lng } }) {
       <body className={`${montserrat.className} bg-white dark:bg-black`}>
         <Providers>
           <Header lng={lng} />
+          <Header2 lng={lng} />
           {children}
           <Footer lng={lng} />
         </Providers>

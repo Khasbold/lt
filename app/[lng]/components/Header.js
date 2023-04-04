@@ -34,7 +34,7 @@ function Header({ lng }) {
     return (
         <>
             <div className="min-h-full">
-                <Disclosure as="nav" className="bg-gray-800">
+                <Disclosure as="nav" className="dark:bg-gray-900 bg-white">
                     {({ open }) => (
                         <>
                             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -55,7 +55,7 @@ function Header({ lng }) {
                                                         href={item.href}
                                                         className={classNames(
                                                             item.current
-                                                                ? 'bg-gray-900 text-white'
+                                                                ? 'dark:bg-gray-900 bg-white text-white'
                                                                 : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                                                             'rounded-md px-3 py-2 text-sm font-medium'
                                                         )}
@@ -69,19 +69,13 @@ function Header({ lng }) {
                                     </div>
                                     <div className="hidden md:block">
                                         <div className="ml-4 flex items-center md:ml-6">
-                                            <div class="relative max-w-sm">
-                                                <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-                                                    <svg aria-hidden="true" class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
-                                                </div>
-                                                <input datepicker datepicker-autohide type="text" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Select date" />
-                                            </div>
-                                            <span class="bg-yellow-100 text-yellow-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-yellow-900 dark:text-yellow-300">Yellow</span>
+                                            <span className="bg-yellow-100 text-yellow-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-yellow-900 dark:text-yellow-300">Yellow</span>
                                             <Login lng={lng} t={t} />
                                             <ThemeColorChanger lng={lng} t={t} />
                                             <LanguageHeader lng={lng} t={t} />
                                             <button
                                                 type="button"
-                                                className="rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+                                                className="rounded-full dark:bg-gray-900 bg-white p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
                                             >
                                                 <span className="sr-only">View notifications</span>
                                                 <BellIcon className="h-6 w-6" aria-hidden="true" />
@@ -91,7 +85,7 @@ function Header({ lng }) {
                                             {/* Profile dropdown */}
                                             <Menu as="div" className="relative ml-3">
                                                 <div>
-                                                    <Menu.Button className="flex max-w-xs items-center rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+                                                    <Menu.Button className="flex max-w-xs items-center rounded-full dark:bg-gray-900 bg-white text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                                                         <span className="sr-only">Open user menu</span>
                                                         <img className="h-8 w-8 rounded-full" src={user.imageUrl} alt="" />
                                                     </Menu.Button>
@@ -128,7 +122,7 @@ function Header({ lng }) {
                                     </div>
                                     <div className="-mr-2 flex md:hidden">
                                         {/* Mobile menu button */}
-                                        <Disclosure.Button className="inline-flex items-center justify-center rounded-md bg-gray-800 p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+                                        <Disclosure.Button className="inline-flex items-center justify-center rounded-md dark:bg-gray-900 bg-white p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                                             <span className="sr-only">Open main menu</span>
                                             {open ? (
                                                 <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
@@ -171,7 +165,7 @@ function Header({ lng }) {
                                         </div>
                                         <button
                                             type="button"
-                                            className="ml-auto flex-shrink-0 rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+                                            className="ml-auto flex-shrink-0 rounded-full dark:bg-gray-900 bg-white p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
                                         >
                                             <span className="sr-only">View notifications</span>
                                             <BellIcon className="h-6 w-6" aria-hidden="true" />

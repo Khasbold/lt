@@ -12,7 +12,7 @@ function Login({ lng, t }) {
         <Fragment>
             {render && (
                 <>
-                    <Button onClick={() => setShow(!show)}>
+                    <Button onClick={() => setShow(!show)} pill={true} outline={true} size='sm'>
                         {t('go-login')}
                     </Button>
                     <Modal
